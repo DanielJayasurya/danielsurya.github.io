@@ -1,0 +1,91 @@
+body{ 
+    font-family: "Audiowide", sans-serif;
+    position: fixed;
+    background-image: url("assets/daniel.jpg");
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    z-index: -1; 
+   }
+
+.Navigator{
+    margin-top: 30px;
+    width: 50vw;
+    color: red;
+    font-family: "Audiowide", sans-serif;
+    display: inline;
+    list-style: none;
+    justify-content: space-around;
+    background-color: transparent
+}
+
+.Navigator li {
+    float: left;
+  }
+  
+.Navigator li a {
+    display: block;
+    padding: 8px;
+    background-color: red;
+}
+
+.Navigator ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+.Navigator li {
+    float: left;
+  }
+  
+.Navigator li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.Navigator li a:hover {
+    background-color: #111;
+  }
+  
+   .imgabout{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid red;
+   }
+   .imgabout img{
+    width: 40vw;
+    height: 100vh;
+   }
+   .imgabout div{
+     text-size-adjust: auto;
+    width: 60vw;
+    text-align: center;
+    margin-top: 60px;
+    color: azure;
+    text-decoration: none;
+    font-size: 40px;
+    overflow-y: auto;
+    
+   }
+
+    .some li{
+     list-style-type: none;   
+    }
+
+    .some strong{
+      color: red;
+    }
