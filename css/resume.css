@@ -1,0 +1,40 @@
+.Navigator{
+    margin-top: 30px;
+    width: 50vw;
+    color: red;
+    font-family: "Audiowide", sans-serif;
+    display: inline;
+    list-style: none;
+    justify-content: space-around;
+    background-color: transparent
+}
+
+.Navigator li {
+    float: left;
+  }
+  
+.Navigator li a {
+    display: block;
+    padding: 8px;
+    background-color: red;
+}
+
+.Navigator ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+.Navigator li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.Navigator li a:hover {
+    background-color: #111;
+  }
